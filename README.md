@@ -20,10 +20,18 @@ Key meaning the value of the parameter/variable.
 Example Usage
 =====
 
-<b>Our Example URL:</b> mywebsite.com/page.html?keyvalue=valueofkey
+Not getting it? That's cool. Here's a simple usage example to help you out.
 
-<b>Our JavaScript Code:</b> var urlparam = getValue("keyvalue");
+<b>Example URL:</b> mywebsite.com/page.html?keyvalue=valueofkey
 
-<b>Value of var:</b> valueofkey
+<b>JavaScript Code:</b> var urlparam = getValue("keyvalue");
 
-The script would then get the value of the varible in the address and return the value <i>"valueofkey"</i>
+The script would then get the value of the varible in the address and return the value <i>"valueofkey"</i>, so the value of variable in your script would become <b>valueofkey</b>. Make sense?
+
+Credits & Notes
+=====
+I got this script a long time ago from an unknown source. But I've used it for over 2-3 years now, and and in that time I've actually improved it and thought I should share it with other coders. I in no way am saying this is 100% mine, but it was a lot worse before I improved it. Before, if your variable values had spaces, it would put <b>your+value+here</b>, annoying huh! But a simple urlencoding and a lot of syntax and research fixed that. If you have any trouble feel free to contact me, I'd love to help you. I've been using this script for about 2-3 years and have done just about everything with it. I hardly use it anymore now that I've moved on to PHP (it seems intimidating but it just looks that way) and thought I shouldn't keep it to myself. Can't wait to see what you do with it! Cheers!
+
+Need help or have suggestions?
+=====
+Contact me on <a href="http://brandon-jordan.weebly.com/contact">my website</a>, I've used this script for 2-3 years and have a lot of experience with it, and anything I don't know about, I'm willing to at least try to help you with.
