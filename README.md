@@ -6,7 +6,7 @@ Finally, a quick easy way to get url variables with JavaScript.
 Installation
 =====
 
-Download jsURL and put this in the &lt;head&gt; of your code:
+Download 'jsURL.js' and put this in the &lt;head&gt; of your code:
 
 <pre>&lt;script type="text/javascript" src="../path/to/jsURL.js"&gt;&lt;/script&gt;</pre>
 
@@ -34,4 +34,4 @@ I got this script a long time ago from an unknown source. But I've used it for o
 
 Need help or have suggestions?
 =====
-Contact me on <a href="http://brandon-jordan.weebly.com/contact-me">my website</a>, I've used this script for 2-3 years and have a lot of experience with it, and anything I don't know about, I'm willing to at least try to help you with.
+Contact me on <a href="http://brandon-jordan.weebly.com/contact-me" target="_blank">my website</a>, I've used this script for 2-3 years and have a lot of experience with it, and anything I don't know about, I'm willing to at least try to help you with.
