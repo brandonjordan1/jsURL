@@ -24,7 +24,7 @@ Not getting it? That's cool. Here's a simple usage example to help you out.
 
 <b>Example URL:</b> mywebsite.com/page.html?keyvalue=valueofkey
 
-<b>Code:</b><pre>var urlparam = getValue("keyvalue");</pre>
+<pre>var urlparam = getValue("keyvalue");</pre>
 
 The script would then get the value of the varible in the address and return the value <i>"valueofkey"</i>, so the value of variable in your script would become <b>valueofkey</b>. Make sense?
 
