@@ -8,7 +8,7 @@ Installation
 
 Download jsURL and put this in the &lt;head&gt; of your code:
 
-&lt;script type="text/javascript" src="../path/to/jsURL.js"&gt;&lt;/script&gt;
+<pre>&lt;script type="text/javascript" src="../path/to/jsURL.js"&gt;&lt;/script&gt;</pre>
 
 Usage
 =====
