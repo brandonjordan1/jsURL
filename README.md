@@ -22,7 +22,7 @@ Example Usage
 
 Not getting it? That's cool. Here's a simple usage example to help you out.
 
-<b>Example URL:</b> mywebsite.com/page.html?yourvariablehere=yourvaluehere
+<b>Example URL:</b> yourwebsite.com/yourpage.html?yourvariablehere=yourvaluehere
 
 <pre>var urlparam = getValue("yourvariablehere");</pre>
 
