@@ -13,7 +13,7 @@ Download jsURL and put this in the &lt;head&gt; of your code:
 Usage
 =====
 
-To get the value of a URL parameter/variable use <pre>getValue("key")</pre>
+To get the value of a URL parameter/variable use <pre>getValue("key");</pre>
 
 Key meaning the value of the parameter/variable.
 
@@ -24,7 +24,7 @@ Not getting it? That's cool. Here's a simple usage example to help you out.
 
 <b>Example URL:</b> mywebsite.com/page.html?keyvalue=valueofkey
 
-<b>JavaScript Code:</b> var urlparam = getValue("keyvalue");
+<b>Code:</b><pre>var urlparam = getValue("keyvalue");</pre>
 
 The script would then get the value of the varible in the address and return the value <i>"valueofkey"</i>, so the value of variable in your script would become <b>valueofkey</b>. Make sense?
 
