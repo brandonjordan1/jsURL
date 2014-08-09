@@ -15,7 +15,7 @@ Usage
 
 To get the value of a URL parameter/variable use <pre>getValue("key");</pre>
 
-Key meaning the value of the parameter/variable.
+Key meaning the name of the parameter/variable.
 
 Example Usage
 =====
