@@ -22,11 +22,11 @@ Example Usage
 
 Not getting it? That's cool. Here's a simple usage example to help you out.
 
-<b>Example URL:</b> mywebsite.com/page.html?keyvalue=valueofkey
+<b>Example URL:</b> mywebsite.com/page.html?yourvariablehere=yourvaluehere
 
-<pre>var urlparam = getValue("keyvalue");</pre>
+<pre>var urlparam = getValue("yourvariablehere");</pre>
 
-The script would then get the value of the varible in the address and return the value <i>"valueofkey"</i>, so the value of variable in your script would become <b>valueofkey</b>. Make sense?
+The script would then get the value of the varible in the address and return the value <i>"yourvaluehere"</i>, so the value of variable in your script would become <b>yourvaluehere</b>. Make sense?
 
 Credits & Notes
 =====
