@@ -6,7 +6,7 @@ Finally, a quick easy way to get url variables with JavaScript.
 Installation
 =====
 
-Download jsURL.js and put this in the &lt;head&gt; of your code:
+Download `jsURL.js` and put this in the &lt;head&gt; of your code:
 
 <pre>&lt;script type="text/javascript" src="../path/to/jsURL.js"&gt;&lt;/script&gt;</pre>
 
