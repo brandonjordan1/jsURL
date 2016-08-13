@@ -1,7 +1,7 @@
 jsURL
 =====
 
-Finally, a quick easy way to get url variables with JavaScript.
+A quick easy way to get url variables with JavaScript.
 
 Installation
 =====
