@@ -1,7 +1,7 @@
 jsURL
 =====
 
-A quick easy way to get URL variables with JavaScript.
+A quick easy way to get URL parameters with JavaScript.
 
 ```html
 <script type="text/javascript" src="path/to/get.min.js"></script>
