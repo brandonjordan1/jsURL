@@ -10,7 +10,7 @@ A quick easy way to get URL parameters with JavaScript.
 Usage
 =====
 
-To get the value of a URL parameter/variable use:
+Get the value of a URL parameter in your JS:
 
 ```javascript
 var value = get("key");
