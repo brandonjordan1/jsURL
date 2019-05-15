@@ -4,7 +4,7 @@ jsURL
 A quick easy way to get URL variables with JavaScript.
 
 ```html
-<script type="text/javascript" src="path/to/jsURL.js"></script>
+<script type="text/javascript" src="path/to/get.min.js"></script>
 ```
 
 Usage
