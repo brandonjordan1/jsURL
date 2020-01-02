@@ -1,4 +1,4 @@
-jsURL
+jsGET
 =====
 
 A quick easy way to get URL parameters with JavaScript.
