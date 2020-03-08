@@ -12,7 +12,9 @@ Usage
 
 Get the value of a URL parameter in your JS:
 
+`example.com/?key=true`
+
 ```javascript
 var value = get("key");
-// use value of key however
+// outputs value of key
 ```
