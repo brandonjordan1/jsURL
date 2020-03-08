@@ -1,32 +1,16 @@
-function get(varname) {
-	// First, we load the URL into a variable
-	var url = window.location.href.replace(new RegExp("\\+", "g"), "%20")
-		// Next, split the url by the ?
-	var qparts = url.split("?");
-	// Check that there is a querystring, return "" if not
-	if (qparts.length == 0) return "";
-	// Then find the querystring, everything after the ?
-	var query = qparts[1];
-	// Split the query string into variables (separates by &s)
-	var vars = query.split("&");
-	// Initialize the value with "" as default
-	var value = "";
-	// Iterate through vars, checking each one for varname
-	for (i = 0; i < vars.length; i++) {
-		// Split the variable by =, which splits name and value
-		var parts = vars[i].split("=");
-		// Check if the correct variable
-		if (parts[0] == varname) {
-			// Load value into variable
-			value = parts[1];
-			// End the loop
-			break;
-		}
-	}
-	// Convert escape code
-	value = unescape(value);
-	// Convert "+"s to " "s
-	value.replace("+", " ");
-	// Return the value
-	return value;
+function get(e) {
+  var r = window.location.href.replace(new RegExp("\\+", "g"), "%20").split("?");
+  if (0 == r.length) return "";
+  if (r[1]) {
+    var n = r[1].split("&"),
+      t = "";
+    for (i = 0; i < n.length; i++) {
+      var a = n[i].split("=");
+      if (a[0] == e) {
+        t = a[1];
+        break
+      }
+    }
+    return (t = unescape(t)).replace("+", " "), t
+  } else return;
 }
