@@ -1,7 +1,7 @@
 jsGET
 =====
 
-A quick easy way to get URL parameters with JavaScript.
+A quick easy way to get URL parameters with JavaScript. Include the script on your page or paste it into your existing script.
 
 ```html
 <script type="text/javascript" src="path/to/get.min.js"></script>
